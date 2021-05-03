@@ -85,6 +85,7 @@ def main(main_context_queue):
 
 
 if __name__ == '__main__':
+	testeleandro=1
     #   Cria um processo principal e um processo que controla apenas o Rabbit
     rabbit_config = [
         {'host': None, 'exchange': 'exchange1', 'queue': None},
